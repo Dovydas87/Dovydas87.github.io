@@ -1,0 +1,202 @@
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background: url(../img/background.jpg) no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*Global*/
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	color: #ffffff;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+/*Header*/
+header {
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+}
+
+header a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+article a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+header h1 {
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding {
+	float: left;
+}
+
+header #branding h1 {
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	padding-top: 10px;
+}
+
+header .highlight, header .current {
+	color: #F87217;
+	font-weight: bold;
+}
+
+header ul a:hover {
+	color: #cccccc;
+	text-decoration: underline overline;
+}
+
+/*Showcase*/
+#showcase {
+	align-self: center;
+	min-height: 400px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#showcase h1 {
+	margin-top: 80px;
+	font-size: 65px;
+	margin-bottom: 10px;
+}
+
+#showcase p{
+	font-size: 30px;
+}
+
+.glink {
+	font-size: 30px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.glink:hover {
+	color: #cccccc;
+}
+/*Sidebar*/
+aside#sidebar{
+	float: right;
+	width: 50%;
+}
+
+.side-photo {
+	float: left;
+	width:40%;
+	margin: 1%;
+}
+
+aside#sidebar .quote {
+
+}
+
+/*Main-col*/
+article#main-col{
+	margin-top: 10px;
+}
+
+/*Footer*/
+.social {
+	list-style-type: none;
+	text-align: center;
+}
+
+.social li{
+	display: inline;
+}
+
+.social i{
+	font-size: 50px;
+	margin: 1%;
+	padding: 3%;
+	color: #ffffff;
+}
+.social i:hover {
+	color: #cccccc;
+}
+
+footer.second {
+	color: #ffffff;
+	max-height: 50px;
+	margin: 0;
+}
+
+footer.second p {
+	padding: 5px 0 9px 0;
+	text-align: center;
+}
+
+/*Media Queries*/
+@media(max-width: 768px){
+	header #branding,
+	header nav,
+	header nav li,
+	form,
+	article,
+	aside{
+		float:none;
+		text-align:center;
+		width: 100%;
+	}
+
+	header {
+		padding-bottom: 20px;
+	}
+
+	#showcase h1{
+		margin-top: 40px;
+		font-size: 15vw;
+	}
+
+	#showcase p{
+		font-size: 10vw;
+	}
+
+
+	.button_1{
+		display: block;
+		width: 40%;
+		margin-left: 30%;
+		margin-right: 30%;
+
+	}
+	aside#sidebar{
+		float:none;
+		width: 100%;
+	}
+
+	.side-photo{
+		float:none;
+		width: 40%;
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+}
