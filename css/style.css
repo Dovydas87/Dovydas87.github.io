@@ -158,3 +158,38 @@ form input {
 	color: #f5f5f5;
 	background-color: #151B54;
 }
+
+/*Media Queries*/
+
+@media(max-width: 768px){
+	header #logo,
+	header nav,
+	header nav li,
+	form,
+	article,
+	aside{
+		float:none;
+		text-align:center;
+		width: 100%;
+	}
+
+	header {
+		padding-bottom: 20px;
+	}
+
+	#content h1{
+		margin-top: 40px;
+		font-size: 50px;
+	}
+
+	#content a p{
+		font-size: 20px;
+	}
+
+	.social-links i{
+	font-size: 40px;
+}
+
+	.copyright {
+		font-size: 15px;
+	}
